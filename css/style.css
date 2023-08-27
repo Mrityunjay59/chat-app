@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(rgb(255,255,255),rgb(106, 106, 220));
+    height: 100vh;
+}
+.logo
+{
+display: block;
+margin: auto;
+width: 150px;
+height: 150px;
+}
+img.logo {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    /* background-color:white; */
+    background-color: #fcfcfc;
+     /* opacity: 0.5; */
+background: radial-gradient(circle, transparent 20%, #cacaee 20%, #cacaee 10%, transparent 10%, transparent), radial-gradient(circle, transparent 20%, #cacaee 20%, #cacaee 80%, transparent 80%, transparent) 22.5px 22.5px, linear-gradient(#ff00d0 1.8px, transparent 1.8px) 0 -0.9px, linear-gradient(90deg, #ff00d0 1.8px, #cacaee 1.8px) -0.9px 0;
+background-size: 45px 45px, 45px 45px, 22.5px 22.5px, 22.5px 22.5px;
+}
+
+.message{
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px rgb(180, 174, 174);
+    font-size: 17px;
+}
+.right{
+float: right;
+clear: both;
+}
+.left{
+float: left;
+clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1031px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 28px;
+   font-size: 17px;
+}
+.btn{
+    margin: 0px 3px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 9%;
+
+}
+
